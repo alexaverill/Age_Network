@@ -1,9 +1,9 @@
 body {
-  font-family: 'Muli', sans-serif; 
+  font-family: 'Muli', sans-serif;
 }
 
 .light-orange {
-  background-color:rgb(255,245,238,0.6);
+  background-color: rgb(255, 245, 238, 0.6);
 }
 
 .white {
@@ -48,9 +48,10 @@ body {
 }
 
 .img-center {
-  display:block;
-  margin:auto;
-  width: 45%; /* WIP */
+  display: block;
+  margin: auto;
+  width: 45%;
+  /* WIP */
 }
 
 .img-50x50 {
@@ -153,7 +154,20 @@ body {
   margin-right: 1.0625rem;
 }
 
-
-
-
-
+@media (max-width:1000px) {
+  .right-orange-border {
+    border: none
+  }
+  .img-center {
+    display: none;
+  }
+  .vision-mission-padding {
+    padding: 0.875rem 4.583333333333333rem 1rem;
+  }
+  .left-orange-border {
+    border: none;
+  }
+  #who-we-are {
+    padding: 2.875rem 2rem 7.5rem 2rem;
+  }
+}
