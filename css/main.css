@@ -25,7 +25,9 @@ body {
 .row {
   margin: 0px;
 }
-
+.titleRow{
+  background-color: #E46319;
+}
 .col-9 {
   padding: 0px;
 }
@@ -107,6 +109,28 @@ body {
   right: 0.8%;
   font-size: 0.8vw;
   color: #eab4bd;
+}
+
+#title-block{
+  text-align: center;
+  margin: 5% auto;
+  padding: 2rem 2rem 2rem 2rem;
+}
+
+#title-block img{
+  margin-bottom: 20px;
+}
+
+#title-block h1{
+  font-size: 5vh;
+  font-weight: 900;
+  color: #e46319;
+}
+
+#title-block p{
+  font-size: 32px;
+  font-weight: 300;
+  color: #2f3640;
 }
 
 #who-we-are {
